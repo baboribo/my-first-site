@@ -1,47 +1,61 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>마이 샤이뜨</title>
-  </head>
-  <body style="display: flex; flex-direction: column; margin: 20px">
-    <div>
-      <h1>내 사이트</h1>
-      <p>여기는 제가 만든 저의 사이트예요.</p>
-      <hr />
-      <div style="display: flex; gap: 20px; margin-top: 18px">
-        <div>
-          <img
-            src="media/image/test/스크린샷 2024-11-18 오전 1.54.24.png"
-            style="width: 200px"/>
-          <h3>바닷물 속에서</h3>
-          <p>게임하다 찍은 스크린샷이에요.</p>
-        </div>
-        <div>
-          <img
-            src="media/image/test/스크린샷 2024-11-17 오후 10.20.17.png"
-            style="width: 200px"/>
-          <h3>여기가 육지로구나</h3>
-          <p>낚시꾼이 나온 사진이에요.</p>
-        </div>
-        <div>
-          <video controls style="width: 300px">
-            <source src="media/video/No.117A - Mosenite - moseni_lotus(Lotus Waters) [Yume 2kki OST].mp4" type="video/mp4"/>
-            아쉽게도, 님이 쓰는 웹 브라우저는 video 태그를 지원하지 않음요.</video>
-          <h3>유메2키 Lotus Waters</h3>
-          <p>제가 정말 좋아하는 음악이에요.</p>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>마이 샤이뜨</title>
+</head>
+
+<body style="display: flex; flex-direction: column; margin: 20px">
+  <div>
+    <h1>내 사이트</h1>
+    <p>여기는 제가 만든 저의 사이트예요.</p>
+    <hr />
+    <div style="display: flex; gap: 20px; align-items: baseline; flex-flow: wrap; margin-top: 18px">
+      <div>
+        <img src="media/image/test/스크린샷 2024-11-18 오전 1.54.24.png" style="width: 200px" />
+        <h3>바닷물 속에서</h3>
+        <p>게임하다 찍은 스크린샷이에요.</p>
       </div>
-      <hr />
-      <div style="display: flex; gap: 24px">
-        <h3>왜 이 사이트를 만들었나요?</h3>
-        <p>
-          video, img, iframe 등 태그도 써보고 이것저것 하려고 만들었어요.<br />GPT로
-          안되는 것과 왜 되는건지, 기억이 잘 안 날때는 물어보거나 태그는 아는데
-          역할을 모를 경우 등에 사용해요.<br />일부러 CSS를 안 썼어요. 그 대신
-          유지 보수가 힘든 style을 사용해요. (귀찮아서.)</p>
+      <div>
+        <img src="media/image/test/스크린샷 2024-11-17 오후 10.20.17.png" style="width: 200px" />
+        <h3>여기가 육지로구나</h3>
+        <p>낚시꾼이 나온 사진이에요.</p>
+      </div>
+      <div>
+        <video controls style="width: 300px">
+          <source src="media/video/No.117A - Mosenite - moseni_lotus(Lotus Waters) [Yume 2kki OST].mp4"
+            type="video/mp4" />
+          아쉽게도, 님이 쓰는 웹 브라우저는 video 태그를 지원하지 않는 듯요.
+        </video>
+        <h3>유메2키 Lotus Waters</h3>
+        <p>제가 정말 좋아하는 음악이에요.</p>
+      </div>
+      <div>
+        <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/videoseries?si=TDd3lxnT1Z9O5Yur&amp;list=PLNrfkEOg_6YMIqV1E-kGR1OYBhAa4GxbQ"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h3>가지고 싶다</h3>
+        <p>가지고 놀기에도 좋아 보이고, 이쁘기도 해서 가지고 싶음.<br />근데 가격이 50만원이라 학생인 내가 사기에는 좀...</p>
+      </div>
+      <div>
+        <a href="https://www.last.fm/user/manokiki"><img
+            src="https://lastfm-recently-played.vercel.app/api?user=manokiki" height="auto" width="350px" /></a>
       </div>
     </div>
-  </body>
+    <hr />
+    <div style="display: flex; gap: 24px">
+      <h3>왜 이 사이트를 만들었나요?</h3>
+      <p>
+        video, img, iframe 등 태그도 써보고 이것저것 하려고 만들었어요.<br />GPT로
+        안되는 것과 왜 되는건지, 기억이 잘 안 날때는 물어보거나 태그는 아는데
+        역할을 모를 경우 등에 사용해요.<br />일부러 CSS를 안 썼어요. 그 대신
+        유지 보수가 힘든 style을 사용해요. (귀찮아서.)</p>
+    </div>
+  </div>
+</body>
+
 </html>
