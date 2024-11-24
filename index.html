@@ -5,26 +5,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>마이 사이트</title>
-  <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="style/font.css">
+  <link rel="stylesheet" href="style/ui.css">
 </head>
 
-<body style="display: flex; flex-direction: column; margin: 20px">
+<body>
   <div>
     <h1>내 사이트</h1>
     <p>여기는 제가 만든 저의 사이트예요.</p>
     <hr />
-    <div style="display: flex; gap: 20px; align-items: baseline; flex-flow: wrap; margin-top: 18px">
-      <div>
+    <h2>콘텐츠</h2>
+    <div class="ui-content-grid">
+      <div class="ui-content-inbox">
         <img src="media/image/test/s1.png" style="width: 200px" />
         <h3>바닷물 속에서</h3>
         <p>게임하다 찍은 스크린샷이에요.</p>
       </div>
-      <div>
+      <div class="ui-content-inbox">
         <img src="media/image/test/s2.png" style="width: 200px" />
         <h3>여기가 육지로구나</h3>
         <p>낚시꾼이 나온 사진이에요.</p>
       </div>
-      <div>
+      <div class="ui-content-inbox">
         <video controls style="width: 300px">
           <source src="media/video/No.117A - Mosenite - moseni_lotus(Lotus Waters) [Yume 2kki OST].mp4"
             type="video/mp4" />
@@ -33,7 +35,7 @@
         <h3>유메2키 Lotus Waters</h3>
         <p>제가 정말 좋아하는 음악이에요.</p>
       </div>
-      <div>
+      <div class="ui-content-inbox">
         <iframe width="560" height="315"
           src="https://www.youtube.com/embed/videoseries?si=TDd3lxnT1Z9O5Yur&amp;list=PLNrfkEOg_6YMIqV1E-kGR1OYBhAa4GxbQ"
           title="YouTube video player" frameborder="0"
@@ -43,6 +45,7 @@
         <p>가지고 놀기에도 좋아 보이고, 이쁘기도 해서 가지고 싶음.<br />근데 가격이 50만원이라 학생인 내가 사기에는 좀...</p>
       </div>
       <div>
+        <h2>임베드</h2>
         <a href="https://www.last.fm/user/manokiki"><img
             src="https://lastfm-recently-played.vercel.app/api?user=manokiki" height="auto" width="350px" /></a>
       </div>
@@ -53,8 +56,8 @@
       <p>
         video, img, iframe 등 태그도 써보고 이것저것 하려고 만들었어요.<br />GPT로
         안되는 것과 왜 되는건지, 기억이 잘 안 날때는 물어보거나 태그는 아는데
-        역할을 모를 경우 등에 사용해요.<br />일부러 CSS를 안 썼어요. 그 대신
-        유지 보수가 힘든 style을 사용해요. (귀찮아서.)</p>
+        역할을 모를 경우 등에 사용해요.
+      </p>
     </div>
   </div>
 </body>
