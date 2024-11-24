@@ -3,7 +3,7 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 20px
+    margin: 0px;
 }
 img {
     border-radius: 3px;
@@ -38,4 +38,7 @@ iframe {
     align-items: baseline;
     flex-flow: wrap;
     margin-top: 18px
+}
+.ui-margin {
+    margin: 20px;
 }

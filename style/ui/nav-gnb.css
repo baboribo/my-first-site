@@ -1,0 +1,27 @@
+.ui-gnb {
+    margin-top: 10px;
+    background-color: rgb(227, 236, 243);
+    align-self: center;
+    border-radius: 10px;
+}
+.ui-gnb-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 8px 24px 8px 24px;
+}
+.ui-gnb-list li {
+    display: inline;
+}
+.ui-gnb-list a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s;
+    transition: font-size 0.2s;
+}
+.ui-gnb-list a:hover {
+    color: #d400c9;
+    font-size: 18px;
+    font-weight: 700;
+  }
