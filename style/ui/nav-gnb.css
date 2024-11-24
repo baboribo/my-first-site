@@ -1,8 +1,10 @@
+/* 여기는 UI - GNB 담당 코드입니다. */
 .ui-gnb {
-    margin-top: 10px;
-    background-color: rgb(227, 236, 243);
-    align-self: center;
-    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    /* margin-top: 10px; */
+    /* align-self: center; */
 }
 .ui-gnb-list {
     list-style: none;
@@ -17,8 +19,7 @@
     color: black;
     text-decoration: none;
     font-size: 16px;
-    transition: color 0.2s;
-    transition: font-size 0.2s;
+    transition: 0.3s;
 }
 .ui-gnb-list a:hover {
     color: #d400c9;
