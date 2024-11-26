@@ -1,7 +1,7 @@
 /* 여기는 UI - GNB 담당 코드입니다. */
 .ui-gnb {
     background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(173, 176, 179);
     border-radius: 0px;
     /* margin-top: 10px; */
     /* align-self: center; */
@@ -10,19 +10,25 @@
     list-style: none;
     display: flex;
     gap: 30px;
-    padding: 8px 24px 8px 24px;
+    margin: -10px;
+    padding: 8px 32px 8px 32px;
+    align-items: center;
 }
 .ui-gnb-list li {
     display: inline;
 }
 .ui-gnb-list a {
-    color: black;
+    color: rgb(60, 59, 61);
     text-decoration: none;
     font-size: 16px;
     transition: 0.3s;
 }
 .ui-gnb-list a:hover {
-    color: #d400c9;
+    color: #000000;
     font-size: 18px;
+    font-weight: 600;
+}
+.gnb-heading {
     font-weight: 700;
-  }
+    font-size: 20px;
+}
