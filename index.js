@@ -5,5 +5,5 @@ anime({
   targets: '.ui-content-inbox',
   translateY: [250, 0], // from 100 to 250
   duration: 800,
-  easing: 'spring(1, 50, 10, 0)'
+  easing: 'spring(5, 50, 10, 0)'
 }); 
