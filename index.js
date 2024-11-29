@@ -1,5 +1,5 @@
 // 애니메이션이다, 처음 '/', './' 꼭 넣어야 됨. 
-import anime from '/node_modules/animejs/lib/anime.es.js';
+import anime from 'node_modules/animejs/lib/anime.es.js';
 
 anime({
   targets: '.ui-content-inbox',
