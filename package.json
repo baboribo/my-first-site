@@ -1,0 +1,27 @@
+{
+  "name": "yume.place",
+  "version": "10.9.1",
+  "description": "여기는 npm 패키지가 설치되는 공간입니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monokii/yume.place.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "site"
+  ],
+  "author": "monoki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Monokii/yume.place/issues"
+  },
+  "homepage": "https://github.com/Monokii/yume.place#readme",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
