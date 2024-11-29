@@ -5,5 +5,11 @@ anime({
   targets: '.ui-content-inbox',
   translateY: [250, 0], // from 100 to 250
   duration: 800,
-  easing: 'spring(5, 50, 10, 0)'
+  opacity: [0, 1],
+  rotate: [20, 0],
+}); 
+anime({
+  targets: '.homehome',
+  rotate: 360,
+  loop: true
 }); 
