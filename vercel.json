@@ -4,3 +4,8 @@
     "schedule": "0 10 * * *"
   }]
 }
+{
+  "rewrites": [
+  { "source": "/any", "destination": "site-pages/other/any.html" }
+  ]
+}
