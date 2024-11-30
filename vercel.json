@@ -7,16 +7,16 @@
   ],
   "rewrites": [
     {
-      "source": "/index.html",
-      "destination": "/home"
+      "source": "home",
+      "destination": "./index.html"
     },
     {
-      "source": "/site-pages/other/any.html",
-      "destination": "/any"
+      "source": "any",
+      "destination": "./site-pages/other/any.html"
     },
     {
-      "source": "/site-pages/docs/docs.html",
-      "destination": "/docs"
+      "source": "docs",
+      "destination": "./site-pages/docs/docs.html"
     }
   ]
 }
