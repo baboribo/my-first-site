@@ -1,6 +1,6 @@
 /* 여기는 UI - GNB 담당 코드입니다. */
 .ui-gnb {
-    background-color: rgb(255, 255, 255);
+    background-color: #FDF6E9;
     border-bottom: 1px solid rgb(173, 176, 179);
     border-radius: 0px;
     /* margin-top: 10px; */
@@ -11,7 +11,7 @@
     display: flex;
     gap: 30px;
     margin: -10px;
-    padding: 8px 32px 8px 32px;
+    padding: 24px 32px 24px 32px;
     align-items: center;
 }
 .ui-gnb-list li {
@@ -31,4 +31,10 @@
 .gnb-heading {
     font-weight: 700;
     font-size: 20px;
+}
+.logo {
+    height: 32px;
+}
+.bold {
+    font-weight: 700;
 }
