@@ -79,8 +79,15 @@ anime({
   targets: '.inpage-nav',
   opacity: [0, 1],
   duration: 500,
-  translateY: [-60, 0],
-  translateX: [40, 0],
+  translateY: [30, 0],
+  translateX: [5, 0],
   easing: 'easeOutExpo',
   delay: '800ms',
+}); 
+anime({
+  targets: 'audio',
+  opacity: [0, 1],
+  duration: 800,
+  translateX: [40, 0],
+  delay: anime.stagger(250, {easing: 'easeOutExpo'}),
 }); 
