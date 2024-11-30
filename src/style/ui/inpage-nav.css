@@ -1,9 +1,8 @@
 .inpage-nav {
-    background-color: #ffffff;
+    background-color: #ffe8d2;
     display: flex;
     gap: 30px;
     list-style: none;
-    border-bottom: solid #fff;
 }
 .inpage-nav-list {
     list-style: none;
@@ -16,16 +15,17 @@
 .in-nav-heading {
     font-weight: 600;
     font-size: 18px;
+    color: #433E38;
 }
 .in-nav-heading-memu {
-    color: rgb(60, 59, 61);
+    color: #8C7E6F;
     text-decoration: none;
     font-size: 16px;
     transition: 0.3s;
     text-decoration: none;
 }
 .in-nav-heading-memu:hover {
-    color: #000000;
-    font-size: 16px;
-    font-weight: 500;
+    color: #433E38;
+    font-size: 15px;
+    font-weight: 700;
 }
