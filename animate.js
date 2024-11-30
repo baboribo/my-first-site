@@ -18,7 +18,7 @@ anime({
   delay: anime.stagger(220, {easing: 'easeOutQuad'}),
 }); 
 anime({
-  targets: '.homehome',
+  targets: 'h1',
   translateX: [50, 0],
   opacity: [0, 1],
   delay: '10ms',
@@ -26,7 +26,7 @@ anime({
   easing: 'easeOutExpo'
 }); 
 anime({
-  targets: '.homehome2',
+  targets: '.dec',
   translateX: [30, 0],
   opacity: [0, 1],
   delay: '180ms',
@@ -39,7 +39,7 @@ anime({
   opacity: [0, 1],
   duration: 500,
   easing: 'easeOutExpo',
-  delay: '800ms',
+  delay: '900ms',
 }); 
 
 anime({
@@ -66,4 +66,21 @@ anime({
   duration: 800,
   easing: 'easeOutExpo',
   delay: '2000ms',
+}); 
+anime({
+  targets: '.ui-gnb-list',
+  opacity: [0, 1],
+  duration: 500,
+  translateY: [28, 0],
+  easing: 'easeOutExpo',
+  delay: '940ms',
+}); 
+anime({
+  targets: '.inpage-nav',
+  opacity: [0, 1],
+  duration: 500,
+  translateY: [-60, 0],
+  translateX: [40, 0],
+  easing: 'easeOutExpo',
+  delay: '800ms',
 }); 
