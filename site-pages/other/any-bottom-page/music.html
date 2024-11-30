@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아무거나</title>
+    <link rel="stylesheet" href="../../../src/style/font.css">
+    <link rel="stylesheet" href="../../../src/style/ui/ui.css">
+    <link rel="stylesheet" href="../../../src/style/ui/nav-gnb.css">
+    <link rel="stylesheet" href="../../../src/style/ui/inpage-nav.css">
+</head>
+<body>
+    <!-- 아래는 GNB 입니다.-->
+    <nav class="ui-gnb">
+        <ul class="ui-gnb-list">
+        <img src="/src/svg/logo/Bato.svg" class="logo">
+        <li><a href="/index.html">홈</a></li>
+        <li><a href="../../site-pages/other/any.html" class="bold">아무거나</a></li>
+        </ul>
+    </nav>
+    <nav class="inpage-nav">
+        <ul class="inpage-nav-list">
+        <p class="in-nav-heading">하위 페이지</p>
+        <li><a class="in-nav-heading-memu" href="../any.html">메인 페이지</a></li>
+        <li><a class="in-nav-heading-memu" href="music.html">음악</a></li>
+        </ul>
+    </nav>
+    <div class="ui-margin">
+        <div class="h1-gap">
+            <h1>음악</h1>
+            <p class="dec">이 페이지는 음악만 있어요.</p>     
+        </div>
+        <div>
+            <div style="display: flex; gap: 20px;">
+                <h4>FLAC</h4>
+                <audio controls>
+                    <source src="../../../src/audio/music/flac/국립국악원 환승 음악.flac"></source>
+                </audio>                
+            </div>
+            <div style="display: flex; gap: 20px;">
+                <h4>mp3</h4>
+                <audio controls>
+                    <source src="../../../src/audio/music/mp3/새로운 지하철 환승 음악 2022.mp3"></source>
+                </audio>        
+            </div>
+            <p>놀랍게도, 사이트 내에서 사용해도 된다고 허락 받음. (물론 비상업적으로)</p>
+        </div>
+
+    </div>
+    <script src="../../../animate.js" type="module"></script>
+    </html>
