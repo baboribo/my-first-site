@@ -11,6 +11,13 @@ anime({
   easing: 'easeOutExpo'
 }); 
 anime({
+  targets: '.ui-content-inbox',
+  duration: 10,
+  opacity: [0, 1],
+  rotate: [0, 0],
+  delay: anime.stagger(220, {easing: 'easeOutQuad'}),
+}); 
+anime({
   targets: '.homehome',
   translateX: [50, 0],
   opacity: [0, 1],
