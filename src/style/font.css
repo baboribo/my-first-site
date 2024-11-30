@@ -1,6 +1,11 @@
 /* 이 css는 폰트를 불러오기 위해 만든 스크립트 입니다. */
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
 
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, h6, a {
   font-family: "Pretendard Variable";
+  color: #433E38;
+}
+p {
+  font-family: "Pretendard Variable";
+  color: #8C7E6F;
 }
