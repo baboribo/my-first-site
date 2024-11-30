@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    background-color: #FDF6E9;
 }
 img {
     border-radius: 3px;
@@ -30,7 +31,7 @@ iframe {
     gap: 0px;
     padding: 12px 12px 16px 12px;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: #FDF6E9;
     transition: 0.2s;
     /* 아래는 인폰트 */
     h3 { /* 박스 안 폰트를 조정합니다. */
@@ -41,7 +42,8 @@ iframe {
     }
 }
 .ui-content-inbox:hover {
-    background-color: rgb(238, 239, 240);
+    border: dashed 2px #C3B19E; 
+    background-color: #FDF6E9;
 } 
 .ui-content-grid {
     display: flex;
