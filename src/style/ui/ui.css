@@ -1,5 +1,4 @@
 /* ui.css는 인터페이스를 담당하는 css 코드입니다. */
-/* 아래는 태그 형식으로 자동 작동합니다. */
 body {
     display: flex;
     flex-direction: column;
